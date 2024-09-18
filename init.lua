@@ -665,7 +665,7 @@ require('lazy').setup({
       require('mini.surround').setup()
 
       require 'mini.base16'
-      vim.cmd.colorscheme 'minischeme'
+      vim.cmd.colorscheme 'minicyan'
       vim.cmd.hi 'Comment gui=none'
 
       -- Simple and easy statusline.
