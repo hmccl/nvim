@@ -446,6 +446,7 @@ require('lazy').setup({
         --
 
         ruff = {},
+        clangd = {},
         lua_ls = {
           -- cmd = {...},
           -- filetypes = { ...},
@@ -665,7 +666,7 @@ require('lazy').setup({
       require('mini.surround').setup()
 
       require 'mini.base16'
-      vim.cmd.colorscheme 'minicyan'
+      vim.cmd.colorscheme 'minischeme'
       vim.cmd.hi 'Comment gui=none'
 
       -- Simple and easy statusline.
